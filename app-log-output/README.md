@@ -1,4 +1,4 @@
-# Exercise 1.1: App Log Output
+# App Log Output
 
 This application prints log messages with a UUID and timestamp.
 
