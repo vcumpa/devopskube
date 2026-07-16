@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-todo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app-todo
+  template:
+    metadata:
+      labels:
+        app: app-todo
+    spec:
+      containers:
+        - name: app-todo
+          image: vcumpa/app-todo:1.2
+          env:
+            - name: PORT
+              value: "3000"
