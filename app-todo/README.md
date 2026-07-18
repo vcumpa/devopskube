@@ -1,4 +1,4 @@
-# Exercise 1.2 - App Todo
+# App Todo
 
 This project creates a simple web server that prints  
 **"Server started in port NNNN"** when started.
